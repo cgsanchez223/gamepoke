@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: Georgia;
+}
+
+#playmat {
+    display: flex;
+    flex-wrap: wrap;
+    height: 532px;
+    width: 475px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #141fe3, #ebd50a);
+    border: 10px solid darkblue;
+    border-radius: 2%;
+}
+
+.card {
+        height: 128px;
+        width: 90px;
+        margin: 2.5px;
+}
